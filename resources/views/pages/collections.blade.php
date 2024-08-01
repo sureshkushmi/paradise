@@ -1,14 +1,7 @@
 @include('partials.header')
 @include('partials.spinner')
-<!-- Spinner End -->
-
-<!-- Topbar Start -->
 @include('partials.topbar')
-<!-- Topbar End -->
-
-<!-- Navbar Start -->
 @include('partials.navbar')
-<!-- Navbar End -->
 
 <!-- collections Start -->
 <div class="container-xxl py-5">
@@ -21,7 +14,7 @@
 
         <div class="row g-5">
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="feature-img">
+            <div class="feature-img">
                     <img class="img-fluid" src="{{ asset('img/about-2.jpg') }}" alt="">
                     <img class="img-fluid" src="{{ asset('img/about-1.jpg') }}" alt="">
                 </div>
@@ -53,26 +46,26 @@
                     <!-- Suit Style -->
                     <div class="col-12 mb-3">
                         <div class="row">
-                            <h5 class="mb-0">Suit Style * Single Breasted</h5>
+                            <h5 class="mb-0" id="suit-style-title">Suit Style * Single Breasted</h5>
                             <div class="col-md-4">
                                 <label for="suit-style-1" class="radio-img-label">
-                                    <input type="radio" name="suit_style" id="suit-style-1" value="1button2" class="d-none">
+                                    <input type="radio" name="suit_style" id="suit-style-1" value="single" class="d-none">
                                     <img class="img-fluid" src="{{ asset('img/icons-shirts/1button2.png') }}" alt="">
                                 </label>
                             </div>
                             <div class="col-md-4">
                                 <label for="suit-style-2" class="radio-img-label">
-                                    <input type="radio" name="suit_style" id="suit-style-2" value="4button" class="d-none">
+                                    <input type="radio" name="suit_style" id="suit-style-2" value="double" class="d-none">
                                     <img class="img-fluid" src="{{ asset('img/icons-shirts/4button.png') }}" alt="">
                                 </label>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Buttons * Triple Button ---------- -->
-                    <div class="col-12 mb-3">
+                    <!-- Single Breasted Buttons Section -->
+                    <div id="single-breasted-section" class="col-12 mb-3">
                         <div class="row">
-                            <h5 class="mb-0">Buttons * Triple Button</h5>
+                            <h5 class="mb-0">Buttons * Single Button</h5>
                             <div class="col-md-4">
                                 <label for="button-1" class="radio-img-label">
                                     <input type="radio" name="button-t" id="button-1" value="button-1" class="d-none">
@@ -93,6 +86,32 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Double Breasted Buttons Section -->
+                    <div id="double-breasted-section" class="col-12 mb-3" style="display:none;">
+                        <div class="row">
+                            <h5 class="mb-0">Buttons DB * Single Button</h5>
+                            <div class="col-md-4">
+                                <label for="childbutton-doublebreasted-1" class="radio-img-label">
+                                    <input type="radio" name="childbutton-doublebreasted" id="childbutton-doublebreasted-1" value="button-1" class="d-none">
+                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/doublebreasted_2button.png') }}" alt="">
+                                </label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="childbutton-doublebreasted-2" class="radio-img-label">
+                                    <input type="radio" name="childbutton-doublebreasted" id="childbutton-doublebreasted-2" value="childbutton-doublebreasted-2" class="d-none">
+                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/doublebreasted_4button.png') }}" alt="">
+                                </label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="childbutton-doublebreasted-3" class="radio-img-label">
+                                    <input type="radio" name="childbutton-doublebreasted" id="childbutton-doublebreasted-3" value="childbutton-doublebreasted-3" class="d-none">
+                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/doublebreasted_6button.png') }}" alt="">
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
                     <!-- Lapel -->
                     <div class="col-12 mb-3">
                         <div class="row">
@@ -112,33 +131,40 @@
                             <div class="col-md-4">
                                 <label for="lapel-3" class="radio-img-label">
                                     <input type="radio" name="lapel" id="lapel-3" value="lapel-3" class="d-none">
-                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/lapelregular3.png') }}" alt="">
+                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/lapelwide.png') }}" alt="">
                                 </label>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Pockets * Flap -->
+                     <!-- Pockets * Flap -->
                     <div class="col-12 mb-3">
                         <div class="row">
-                            <h5 class="mb-0">Pockets * Flap</h5>
+                            <h5 class="mb-0">Pockets * Slant Pockets</h5>
                             <div class="col-md-4">
                                 <label for="pocketsflap-1" class="radio-img-label">
                                     <input type="radio" name="pocketsflap" id="pocketsflap-1" value="pocketsflap-1" class="d-none">
-                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/2straightnoflappocket2.png') }}" alt="">
+                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/1lapelregular.png') }}" alt="">
                                 </label>
                             </div>
                             <div class="col-md-4">
                                 <label for="pocketsflap-2" class="radio-img-label">
                                     <input type="radio" name="pocketsflap" id="pocketsflap-2" value="pocketsflap-2" class="d-none">
-                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/2lapelregular3.png') }}" alt="">
+                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/1lapelwide.png') }}" alt="">
+                                </label>
+                            </div>
+                            <div class="col-md-4">
+                                <label for="pocketsflap-3" class="radio-img-label">
+                                    <input type="radio" name="pocketsflap" id="pocketsflap-3" value="pocketsflap-3" class="d-none">
+                                    <img class="img-fluid" src="{{ asset('img/icons-shirts/2lapelregular2.png') }}" alt="">
                                 </label>
                             </div>
                         </div>
                     </div>
 
-                     <!-- Pockets Flap * Two Packet -->
-                     <div class="col-12 mb-3">
+                    <!-- end Pockets Sections -->
+                    <!-- Pockets Flap * Two Packet -->
+                    <div class="col-12 mb-3">
                         <div class="row">
                             <h5 class="mb-0">Pockets Flap * Two Packet </h5>
                             <div class="col-md-4">
@@ -357,20 +383,42 @@
                     </div>
                     <!-- Additional sections here... -->
 
-                    <div class="col-12">
-                        <button class="btn btn-primary w-100 py-3" type="submit">Send</button>
-                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
         </div>
     </div>
 </div>
+
 <!-- collections End -->
 
-<!-- Footer Start -->
 @include('partials.footer')
-<!-- Footer End -->
 
-<!-- Footer Main Start -->
-@include('partials.mainfooter')
-<!-- Footer Main End -->
+<!-- jQuery and Custom Script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function() {
+        // Function to toggle suit style
+        function toggleSuitStyle(style) {
+            $('#suit-style-title').text('Suit Style * ' + (style === 'single' ? 'Single Breasted' : 'Double Breasted'));
+
+            if (style === 'single') {
+                $('#single-breasted-section').show();
+                $('#double-breasted-section').hide();
+                $('#suit-image').attr('src', '{{ asset("img/icons-shirts/1button2.png") }}');
+            } else if (style === 'double') {
+                $('#single-breasted-section').hide();
+                $('#double-breasted-section').show();
+                $('#suit-image').attr('src', '{{ asset("img/icons-shirts/4button.png") }}');
+            }
+        }
+
+        // Attach the toggleSuitStyle function to the radio buttons
+        $('input[name="suit_style"]').change(function() {
+            toggleSuitStyle($(this).val());
+        });
+
+        // Hide the spinner once the page is fully loaded
+        $('#spinner').hide();
+    });
+</script>
