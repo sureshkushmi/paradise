@@ -262,38 +262,38 @@
                         <div class="row">
                             <h5 class="mb-0">Jacket Measurements (Inch)</h5>
                             <div class="col-md-6">
-                                <label for="chest">Chest</label>
+                                <label for="chest">Chest * <a href="#"><img src="{{ asset('img/gif/chest.gif') }}" class="trigger-image" data-description="Measure around the fullest part of the chest. Select the desired chest size for your coat. The measuring tape is usually around the nipple level, under the armpits, and over your shoulder blades. Do not overinflate your chest." data-title="Chest Measurement Guide" data-image="{{ asset('img/gif/chest.gif') }}"></a></label>
                                 <input type="text" class="form-control" id="chest" placeholder="" name="chest">
                             </div>
                             <div class="col-md-6">
-                                <label for="email">Stomach</label>
+                                <label for="email">Stomach * <a href="#"><img src="{{ asset('img/gif/stomach.gif') }}" class="trigger-image" data-description="Measure around the widest part of your abdomen to the desired coat size around the stomach. Make sure the tape is at the same height at all times. The widest part of the abdomen usually coincides with the belly button. Do not hold your stomach in. The Stomach measurement you provide will be the exact measurement of your coat." data-title="Stomach Measurement Guide" data-image="{{ asset('img/gif/stomach.gif') }}"></a></label>
                                 <input type="text" class="form-control" id="Stomach" name="stomach" placeholder="">
                             </div>
 
                             <div class="col-md-6">
-                                    <label for="email">Wrist</label>
+                                    <label for="email">Wrist * <a href="#"><img src="{{ asset('img/gif/wrist.gif') }}" class="trigger-image" data-description="Start by placing a flexible measuring tape around your wrist. Wrap the tape measure around your wrist loosely, so it reflects the desired cuff around the wrist." data-title="Wrist Measurement" data-image="{{ asset('img/gif/wrist.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="wrist" name="wrist" placeholder="">
                             </div>
                             <div class="col-md-6">
-                                    <label for="email">Biceps</label>
+                                    <label for="email">Biceps * <a href="#"><img src="{{ asset('img/gif/biceps.gif') }}" class="trigger-image" data-description="Measure the desired bicep size of the coat. This is the measurement that your coat will have around your biceps." data-title="Biceps Measurement" data-image="{{ asset('img/gif/biceps.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="biceps" name="biceps" placeholder="">
                             </div>
                             <div class="col-md-6">
-                                    <label for="email">Shoulder</label>
+                                    <label for="email">Shoulder * <a href="#"><img src="{{ asset('img/gif/shoulder.gif') }}" class="trigger-image" data-description="Measure across the top of the shoulder from one edge to the other. Ensure you take the curved contour over the top of the shoulders as shown. Wearing your best fitted shirt or suit measure up to the shoulder seams." data-title="Shoulder Measurement" data-image="{{ asset('img/gif/shoulder.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="shoulder" name="shoulder" placeholder="">
                             </div>
 
                             <div class="col-md-6">
-                                    <label for="email">Sleeve</label>
+                                    <label for="email">Sleeve * <a href="#"><img src="{{ asset('img/gif/sleeve.gif') }}" class="trigger-image" data-description="Measure the length of the desired coat sleeve. It's done by measuring from the top of the shoulder to the wrist up to the desired coat sleeve length." data-title="Sleeve Length Measurement" data-image="{{ asset('img/gif/sleeve.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="sleeve" name="sleeve" placeholder="">
                             </div>
                             <div class="col-md-6">
-                                    <label for="email">Jacket Length</label>
+                                    <label for="email">Jacket Length * <a href="#"><img src="{{ asset('img/gif/jacketlenght.gif') }}" class="trigger-image" data-description="Measure from the highest part of your shoulder (where shoulder and neck seams meet) all the way down to the desired length, usually around the thumb joint. When measuring, adopt an upright position with both arms on your sides. A shorter, trendier length, looks good when coupled with jeans, but is an acquired taste in a suit." data-title="Jacket Length" data-image="{{ asset('img/gif/jacketlength.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="jacketlenght" name="jacketlenght" placeholder="">
                             </div>
 
                             <div class="col-md-6">
-                                    <label for="email">Neck</label>
+                                    <label for="email">Neck * <a href="#"><img src="{{ asset('img/gif/neck.gif') }}" class="trigger-image" data-description="Measure your neck upto the desired neck size. " data-title="Neck Length Measurement" data-image="{{ asset('img/gif/neck.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="neck" name="neck" placeholder="">
                             </div>
                         </div>
@@ -304,40 +304,37 @@
                         <div class="row">
                             <h5 class="mb-0">Pant Measurements (Inch)</h5>
                             <div class="col-md-6">
-                                    <label for="waist">Waist</label>
+                                    <label for="waist">Waist * <a href="#"><img src="{{ asset('img/gif/waist.gif') }}" class="trigger-image" data-description="Wearing trousers and a shirt put the measuring tape around your waist at the height where you would wear your pants and adjust to your designed snugness with room for a finger. Make sure the tape is snug and does not ride over the waistband but you should be able to put your index finger inside the tape. As a guide, this measurement will be about 2 inches above what you take off the rack as they like to flatter, but unfortunately, we need real measurements." data-title="Waist Measurement Guide" data-image="{{ asset('img/gif/waist.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="waist" name="waist" placeholder="">
                             </div>
                             <div class="col-md-6">
-                                    <label for="waist">Hip</label>
+                                    <label for="waist">Hip * <a href="#"><img src="{{ asset('img/gif/hip.gif') }}" class="trigger-image" data-description="Wearing trousers, measure around the fullest part of your hips, placing a finger between your body and the tape. Make sure the tape is straight at all times. Make sure your pockets are empty and the tape is not restrictive. As a guide, you should not make the tape too snug. You only just be able to feel the tape when measuring." data-title="Hip Measurement" data-image="{{ asset('img/gif/hip.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="hip" name="Hip" placeholder="">
                             </div>
 
                             <div class="col-md-6">
-                                    <label for="waist">Crotch</label>
+                                    <label for="crotch">Crotch * <a href="#"><img src="{{ asset('img/gif/crotch.gif') }}" class="trigger-image" data-description="Measure from the top middle of the back pants waist all along the crotch seam through your legs until the top of the front waist  Important: If you have any doubt, compare this measure with pants that fit you well." data-title="Crotch Measurement" data-image="{{ asset('img/gif/crotch.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="crotch" name="crotch" placeholder="">
                             </div>
                             <div class="col-md-6">
-                                    <label for="waist">Thigh</label>
+                                    <label for="thigh">Thigh * <a href="#"><img src="{{ asset('img/gif/thigh.gif') }}" class="trigger-image" data-description="Wearing trousers, empty your pockets then, Start at the top of your inseam, measure around your thigh with room for a finger." data-title="Thigh Measurement" data-image="{{ asset('img/gif/thigh.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="thigh" name="thigh" placeholder="">
                             </div>
                             <div class="col-md-6">
-                                    <label for="waist">Length (Outseam)</label>
+                                    <label for="outseam">Length (Outseam) * <a href="#"><img src="{{ asset('img/gif/outseam.gif') }}" class="trigger-image" data-description="Measure from the top of the pants waist all along the side pant seam until the bottom of your pants or roughly 1 inch from the ground." data-title="Pant Length (Outseam) Measurement" data-image="{{ asset('img/gif/outseam.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="length-Outseam" name="length-Outseam" placeholder="">
                             </div>
 
                             <div class="col-md-6">
-                                    <label for="waist">Inseam</label>
+                                    <label for="inseam">Inseam * <a href="#"><img src="{{ asset('img/gif/chest.gif') }}" class="trigger-image" data-description="Measure from the lowest part of your crotch area to the floor. Make sure the tape is tight along the inside of your leg, that you are standing straight, and then measure. No shoes, please!" data-title="Pant Length (Inseam)" data-image="{{ asset('img/gif/inseam.gif') }}"></a></label>
                                     <input type="text" class="form-control" id="inseam" name="inseam" placeholder="">
                             </div>
                             <div class="col-md-6">
-                            <label for="waist">Pant Cuff</label>
+                            <label for="pantcuff">Pant Cuff * <a href="#"><img src="{{ asset('img/gif/pantcuff.gif') }}" class="trigger-image" data-description="Measure around the bottom of the pants around the ankle." data-title="Pant Cuff" data-image="{{ asset('img/gif/pantcuff.gif') }}"></a></label>
                             <input type="text" class="form-control" id="pant-cuff" name="pant-cuff" placeholder="">
                             </div>
 
-                            <div class="col-md-6">
-                                    <label for="email">Neck</label>
-                                    <input type="text" class="form-control" id="neck" name="neck" placeholder="">
-                            </div>
+                            
                         </div>
                     </div>
 
@@ -381,6 +378,19 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- ============  Modal Structure -->
+                    <div id="dynamicModal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 id="modal-title">Dynamic Title</h2>
+        <img id="modal-image" src="" alt="Dynamic Image">
+        <p id="modal-description">Dynamic Description</p>
+    </div>
+</div>
+
+
+<!--  ==========End modal structure========= -->
                     <!-- Additional sections here... -->
 
                     <button type="submit" class="btn btn-primary">Submit</button>
@@ -397,28 +407,59 @@
 <!-- jQuery and Custom Script -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    $(document).ready(function() {
-        // Function to toggle suit style
-        function toggleSuitStyle(style) {
-            $('#suit-style-title').text('Suit Style * ' + (style === 'single' ? 'Single Breasted' : 'Double Breasted'));
+   $(document).ready(function() {
+    // Function to toggle suit style
+    function toggleSuitStyle(style) {
+        $('#suit-style-title').text('Suit Style * ' + (style === 'single' ? 'Single Breasted' : 'Double Breasted'));
 
-            if (style === 'single') {
-                $('#single-breasted-section').show();
-                $('#double-breasted-section').hide();
-                $('#suit-image').attr('src', '{{ asset("img/icons-shirts/1button2.png") }}');
-            } else if (style === 'double') {
-                $('#single-breasted-section').hide();
-                $('#double-breasted-section').show();
-                $('#suit-image').attr('src', '{{ asset("img/icons-shirts/4button.png") }}');
-            }
+        if (style === 'single') {
+            $('#single-breasted-section').show();
+            $('#double-breasted-section').hide();
+            $('#suit-image').attr('src', '{{ asset("img/icons-shirts/1button2.png") }}');
+        } else if (style === 'double') {
+            $('#single-breasted-section').hide();
+            $('#double-breasted-section').show();
+            $('#suit-image').attr('src', '{{ asset("img/icons-shirts/4button.png") }}');
         }
+    }
 
-        // Attach the toggleSuitStyle function to the radio buttons
-        $('input[name="suit_style"]').change(function() {
-            toggleSuitStyle($(this).val());
-        });
-
-        // Hide the spinner once the page is fully loaded
-        $('#spinner').hide();
+    // Attach the toggleSuitStyle function to the radio buttons
+    $('input[name="suit_style"]').change(function() {
+        toggleSuitStyle($(this).val());
     });
+
+    // Modal functionality
+    var modal = document.getElementById('dynamicModal');
+    var closeBtn = document.querySelector('.close-btn');
+    var triggerImages = document.querySelectorAll('.trigger-image');
+
+    triggerImages.forEach(function(image) {
+        image.addEventListener('click', function() {
+            var title = this.getAttribute('data-title');
+            var imgSrc = this.getAttribute('data-image');
+            var description = this.getAttribute('data-description');
+
+            document.getElementById('modal-title').textContent = title;
+            document.getElementById('modal-image').src = imgSrc;
+            document.getElementById('modal-description').textContent = description;
+
+            modal.style.display = 'block';
+        });
+    });
+
+    closeBtn.addEventListener('click', function() {
+        modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', function(event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+
+    // Hide the spinner once the page is fully loaded
+    $('#spinner').hide();
+});
+
+    
 </script>
